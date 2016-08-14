@@ -39,7 +39,7 @@ def messaging_events(payload):
     if "message" in event and "text" in event["message"]:
       yield event["sender"]["id"], event["message"]["text"].encode('unicode_escape')
     else:
-      yield event["sender"]["id"], "I can't echo this"
+      yield event["sender"]["id"], "Eu não consigo responder."
 
 
 def send_message(token, recipient, text):
