@@ -1,1 +1,0 @@
-web: gunicorn aprendermatematica:app 
