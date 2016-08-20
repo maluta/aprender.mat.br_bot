@@ -17,7 +17,7 @@ app.get('/', function(request, response) {
 
 app.get('/x', function(request, response) {
   //response.render('pages/index');
-  responde.render("oi")
+  response.render("oi")
   console.log("requisitanto /x");
 });
 
