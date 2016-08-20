@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
   //response.render('pages/index');
-  responde.render("oi")
+  response.render("oi")
 });
 
 app.get('/x', function(request, response) {
