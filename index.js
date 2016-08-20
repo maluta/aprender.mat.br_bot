@@ -12,12 +12,12 @@ app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
   //response.render('pages/index');
-  response.render("oi")
+  response.send("oi")
 });
 
 app.get('/x', function(request, response) {
   //response.render('pages/index');
-  response.render("oi")
+  response.send("/x")
   console.log("requisitanto /x");
 });
 
